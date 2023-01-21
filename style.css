@@ -1,0 +1,19 @@
+.container{
+margin-top: 150px;
+width: 100%;	
+display: flex;
+justify-content: center;
+background: rgb(100, 96, 96);
+}
+
+.text{
+    color: blue;
+}
+
+@media screen and (max-width: 1500px){
+    .text{
+        color: rgb(238, 93, 93);
+        font-family: 'Kolker Brush', cursive;
+    }
+    
+}
